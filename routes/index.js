@@ -11,4 +11,4 @@ router.use('/products', require('./products'));
 
 
 /* --------- EXPORTING ROUTER --------- */
-module.exports = router;
+module.exports = router

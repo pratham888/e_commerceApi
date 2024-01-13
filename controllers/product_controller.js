@@ -10,7 +10,7 @@ module.exports.create = async function(req, res) {
             quantity:req.body.Value
 
         });
-        //console.log("####",product)
+        //console.log("####",product)**
         return res.status(201).json({
             success: true,
             message: "Product created successfully",
